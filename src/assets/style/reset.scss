@@ -1,0 +1,23 @@
+@import "declare";
+@import "iconfont";
+html, body{
+  min-height: 100%;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: $font-color;
+  font-size: 32px;
+  font-weight: lighter;
+}
+body, div, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, optgroup, p, blockquote, figure, hr, menu, dir, thead, tbody, tfoot, th, td {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  color:inherit;
+  text-decoration:none;
+}
